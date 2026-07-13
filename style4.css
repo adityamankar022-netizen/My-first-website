@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* NAVBAR */
+#Navbar {
+    color: rgb(199, 156, 95);
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Damion, cursive;
+}
+
+.logo-small {
+    width: 30px;
+    height: 40px;
+}
+
+.q1 {
+    color: white;
+    display: flex;
+    gap: 40px;
+    margin-right: 16%;
+    font-size: small;
+    font-weight: 600;
+}
+
+.w1 {
+    text-decoration: none;
+    color: rgb(199, 156, 95);
+      transition: box-shadow 0.3s ease;  
+    transition: font-size 0.3s ease;
+}
+
+.w1:hover {
+    transition-duration: 0.3s;
+    box-shadow: 0 3px 2px;
+    font-size: 14px;
+}
+
+.q2 {
+    margin-left: 12%;
+}
+
+/* HERO SECTION */
+.e1 {
+    background-color: rgb(41, 40, 39);
+    height: 910px;
+    text-align: center;
+}
+
+.e2 {
+    margin-top: -210px;
+    font-size: 400%;
+    color: rgb(199, 156, 95);
+}
+
+.e3 {
+    color: white;
+    font-family: Damion, cursive;
+    font-size: 90%;
+    animation: bounce 2s ease-in-out infinite;
+    display: block;
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(70px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+}
+
+.e4 {
+    font-size: 90%;
+    margin-top: 1%;
+    margin-left: 24%;
+    margin-right: 24%;
+    color: grey;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+}
+
+.highlight {
+    color: rgb(199, 156, 95);
+}
+
+.details-btn-wrap {
+    margin-top: 50px;
+}
+
+.details-btn {
+    margin-top: -35px;
+}
+
+.button {
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    color: rgb(199, 156, 95);
+     transition: color 0.3s ease;
+}
+
+.button:hover {
+    transition: 0.5s;
+    color: white;
+}
+
+.table-img {
+    margin-top:1%;
+}
+
+.holder{
+
+    /* background-color: rgb(199, 156, 95); */
+    display: flex;
+    justify-content:space-between;
+}
+
+
+.map iframe{
+    border: 2px solid black;
+    padding: 5%;
+    margin-top: 20%;
+    
+}
+.Description{
+    margin-top: 10%;
+}
+
+.Description p{
+     font-family: Damion, cursive;
+    text-decoration:underline;
+    font-size: 40px;
+    color:rgb(199, 156, 95) ;
+
+}
+.Description span{  
+    margin-right: 10%;
+    font-size: larger;
+    text-align: center;
+
+}
